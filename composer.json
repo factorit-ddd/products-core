@@ -1,6 +1,9 @@
 {
     "name": "jifeline/products-core",
     "type": "library",
+    "require": {
+        "webmozart/assert": "^1.9"
+    },
     "autoload": {
         "psr-4": {
             "Jifeline\\Products\\Core\\": "src/"
@@ -10,7 +13,7 @@
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-main": "0.3.x-dev"
+            "dev-main": "0.4.x-dev"
         }
     }
 }
